@@ -1,0 +1,19 @@
+[package]
+name = "netwatch"
+version = "0.0.1"
+edition = "2021"
+authors = ["FirasArafah"]
+description = "A Rust-based network monitor for security analysis"
+license-file = "LICENSE"
+repository = "https://github.com/FirasArafah/netwatch"
+readme = "README.md"
+keywords = ["network", "monitor", "security", "tui"]
+categories = ["command-line-utilities", "network-programming"]
+
+[dependencies]
+sysinfo = "0.32"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
