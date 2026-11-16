@@ -11,7 +11,9 @@ keywords = ["network", "monitor", "security", "tui"]
 categories = ["command-line-utilities", "network-programming"]
 
 [dependencies]
+eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow"] }
 sysinfo = "0.32"
+
 
 [profile.release]
 lto = true
