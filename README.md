@@ -4,20 +4,28 @@ A Rust-based network monitor for security analysis.
 
 > ⚠️ **Work in progress.** Not functional yet. This README will be
 > replaced with a full write-up after v1.0.0.
-## Roadmap
+## Features (Roadmap)
 
-- [x] `v0.0.1` — Enumerate network interfaces
-- [x] `v0.1.0` — Live RX/TX stats with deltas
-- [x] `v0.2.0` — egui GUI scaffold
-- [ ] `v0.3.0` — Live interface table in GUI
-- [ ] `v0.4.0` — Packet capture (`pcap`)
-- [ ] `v0.5.0` — Process attribution
-- [ ] `v0.6.0` — Filtering + alerting
-- [ ] `v1.0.0` — PCAP export
+- [x] Enumerate network interfaces
+- [x] Live RX/TX stats with deltas
+- [x] egui GUI scaffold with dark mode
+- [x] Live interface table in GUI
+- [ ] Deep packet inspection (`pcap`)
+- [ ] Process attribution
+- [ ] Filtering + alerting
+- [ ] PCAP export
 
 ## Author
 
 [FirasArafah](https://github.com/FirasArafah)
+
+## ⚠️ Disclaimer
+
+This project is created for **educational and portfolio purposes only**. 
+
+It is intended to demonstrate systems-level Rust programming, memory safety, and basic network analysis techniques. It is **not** intended to be a replacement for enterprise-grade security tools like Wireshark or GlassWire. 
+
+Please use this software responsibly and only on networks you own or have explicit permission to monitor.
 
 ## License
 
