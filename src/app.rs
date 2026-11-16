@@ -1,4 +1,4 @@
-use crate::format::{format_bytes, format_rate};
+use crate::format::format_rate;
 use eframe::egui;
 use std::collections::HashMap;
 use std::time::{Duration, Instant};
